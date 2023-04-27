@@ -23,13 +23,13 @@
                                     <constraint firstAttribute="height" constant="100" id="jTd-pn-uHy"/>
                                 </constraints>
                             </imageView>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vIi-pF-9SZ">
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00 : 00 : 00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vIi-pF-9SZ">
                                 <rect key="frame" x="24" y="263" width="345" height="60"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <progressView hidden="YES" opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="1" translatesAutoresizingMaskIntoConstraints="NO" id="q4C-Ed-S2O">
+                            <progressView opaque="NO" alpha="0.0" contentMode="scaleToFill" verticalHuggingPriority="750" progress="1" translatesAutoresizingMaskIntoConstraints="NO" id="q4C-Ed-S2O">
                                 <rect key="frame" x="48" y="353" width="297" height="4"/>
                                 <color key="progressTintColor" systemColor="systemOrangeColor"/>
                             </progressView>
@@ -80,6 +80,7 @@
                     <connections>
                         <outlet property="cancelButton" destination="od6-pu-b5s" id="YUx-SE-vFW"/>
                         <outlet property="datePicker" destination="Vej-RU-tMP" id="hmH-5i-Gjm"/>
+                        <outlet property="imageView" destination="fO5-a6-zie" id="MlS-DD-3gA"/>
                         <outlet property="progressView" destination="q4C-Ed-S2O" id="1M8-3K-4MX"/>
                         <outlet property="timerLabel" destination="vIi-pF-9SZ" id="bSA-hR-Leu"/>
                         <outlet property="toggleButton" destination="n11-iU-bFG" id="LTe-Cb-dDV"/>
